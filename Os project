@@ -49,10 +49,7 @@ for(i=0;i<n;i++)
  tt = tt + turnaround[i];
 }
 printf("\nWaiting Time=%lf\nTurnAround Time= %lf",avg,tt);
-printf("\n----------------------------------------------------------------------------");
 printf("\nAverage waiting time = %lf\n",avg/n);
 printf("\nAverage Turnaround time = %lf",tt/n);
-printf("\n\n\n*******************************THE 
-END***************************************");
 return 0;
 }
