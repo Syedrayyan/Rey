@@ -1,4 +1,3 @@
-
 from math import factorial
 global list_previous_jug_states 
 list_previous_jug_states = []
@@ -10,6 +9,8 @@ global list_volumes
 list_volumes = []
 global list_jug_max
 list_jug_max = []
+
+
 
 class CreateJugs:
     def __init__ (self,jug_name,jug_max):
@@ -131,3 +132,8 @@ if __name__ == "__main__":
         if is_destination == True:
             print ("=====")
             break
+
+
+//Module for user input
+
+g = raw_input("Enter your desired goal state : ")
